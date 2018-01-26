@@ -1,0 +1,42 @@
+(lp0
+S"'d'\n(vs. 'o_test' refc.)"
+p1
+aS"'d'\n(vs. 'trdl' refc.)"
+p2
+aS"'d'\n(vs. 'papir' refc.)"
+p3
+aS"'poh'\n(vs. 'papir' refc.)"
+p4
+aS"'vla'\n(vs. 'o_test' refc.)"
+p5
+aS"'u'\n(vs. 'o_test' refc.)"
+p6
+aS"'g'\n(vs. 'trdl' refc.)"
+p7
+aS"'b'\n(vs. 'a' refc.)"
+p8
+aS"'g'\n(vs. 'o_test' refc.)"
+p9
+aS"'x'\n(vs. 'i_test' refc.)"
+p10
+aS"'vla'\n(vs. 'papir' refc.)"
+p11
+aS"'poh'\n(vs. 'o_test' refc.)"
+p12
+aS"'pop'\n(vs. 'sok' refc.)"
+p13
+aS"'a'\n(vs. 'mpt' refc.)"
+p14
+aS"'pop'\n(vs. 'x' refc.)"
+p15
+aS"'a'\n(vs. 'trdl' refc.)"
+p16
+aS"'l'\n(vs. 'trdl' refc.)"
+p17
+aS"'pivo'\n(vs. 'u' refc.)"
+p18
+aS"'x'\n(vs. 'sokol' refc.)"
+p19
+aS"'pop'\n(vs. 'papir' refc.)"
+p20
+a.

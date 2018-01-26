@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+     rel="stylesheet">
+ </head>
+ <body>
+  <div class="container">
+   <div class="header">
+    <h1> Predicted Class: {{ prediction }} </h1>
+    <h3> Phoneme(s) Suggested for Further Investigation: </h3>
+    <ul>
+    {% for item in flags %}
+     <p class="text-muted"> {{item}} </p>
+    {% endfor %}
+    </ul>
+    <div>
+    <h3> Phoneme Analysis Chart: </h3>
+    <p class="text-muted"> Methodology: Phoneme(s) flagged for further testing lie more than one standard deviation away from the mean sample-to-reference phoneme pair similarity score for unimpaired speech data. Box plots shown convey quartile information for the data. </p>
+    <!-- <img src="/images/Results.png" alt="Results" width="1000" height="2000"> </img> -->
+    <img src="{{url_for('image_file', imagefilename=imagename)}}" alt="Results" width="1000" height="2000"> </img>
+    </div>
+
+    <h3 class="text-muted">Uploaded Files</h3>
+   </div>
+   <hr/>
+   <div>
+   This is a list of the files you have just uploaded. Click to load/download.
+   <ul>
+    {% for file in filenames %}
+     <li><a href="{{url_for('uploaded_file', filename=file)}}">{{file}}</a></li>
+    {% endfor %}
+   </ul>
+   </div>
+  </div>
+ </body>
+</html>

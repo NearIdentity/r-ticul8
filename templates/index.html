@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+  rel="stylesheet">
+ </head>
+ <body> <!-- <body style="background-color:powderblue;"> -->
+  <div class="container">
+   <div class="header">
+    <img src="/images/r-ticul8.png" alt="r-ticul8_logo" width="auto" height="auto"> </img>
+    <h2 class="text-muted" style="font-family:arial;color:purple"> A Web App for Audio-Based Speech Impairment Diagnosis </h2>
+    <p class="text-muted"> Please upload ALL phoneme-labelled .wav audio files for the current test subject. Use the 'Browse' button to navigate files to upload and the 'Upload' button to submit for analysis once ready. <p>
+   </div>
+   <hr/>
+   <div>
+   <form action="upload" method="post" enctype="multipart/form-data">
+   <input type="file" multiple="" name="file[]" class="span3" /><br/>
+    <input type="submit" value="Upload" class="span2">
+   </form>
+   </div>
+  </div>
+ </body>
+</html>
